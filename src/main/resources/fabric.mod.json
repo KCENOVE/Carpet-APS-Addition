@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "carpet-aps-addition",
+	"version": "${version}",
+	"name": "Carpet APS Addition",
+	"description": "Carpet APS Addition",
+	"authors": [
+		"KCENOVE"
+	],
+	"contact": {
+		"homepage": "https://aps.kcenove.me/"
+	},
+	"license": "MIT",
+	"icon": "assets/carpet-aps-addition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"best.aps.carpetaddition.CarpetAPSAddition"
+		]
+	},
+	"mixins": [
+		"carpet-aps-addition.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "26.1.*",
+		"java": ">=25",
+		"carpet": "*"
+	}
+}

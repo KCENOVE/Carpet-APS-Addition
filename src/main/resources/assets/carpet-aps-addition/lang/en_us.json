@@ -1,0 +1,5 @@
+{
+  "carpet.category.APS": "APS",
+  "carpet.rule.softDeepslate.desc": "Set the hardness of deepslate and its variants to be the same as stone or cobblestone",
+  "carpet.rule.suppressionMismatchInDestroyBlockPosWarn.desc": "To prevent the warning \"Mismatch in destroy block pos: {} {}\" from being output in the log"
+}

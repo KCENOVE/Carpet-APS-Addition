@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "best.aps.carpetaddition.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"rule.AbstractBlockStateMixin",
+		"rule.ServerPlayerInteractionManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixinextras": {
+		"minVersion": "0.5.0"
+	}
+}
